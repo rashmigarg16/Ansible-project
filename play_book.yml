@@ -1,0 +1,6 @@
+---
+- name: website demo
+  hosts: all
+  become: yes 
+  roles:
+     - myrole2
